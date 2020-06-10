@@ -43,6 +43,5 @@ for line in sys.stdin:
     # New line \n means new record
     if (category == "Computers") or (category == "Cameras") or (category == "Cameras"):
         sys.stdout.write("{0}\t{1}\n".format(category, sales))
-    if len(data) =! 6:
+    if len(data) != 6:
         raise ValueError('Less than 6 elements')
-
